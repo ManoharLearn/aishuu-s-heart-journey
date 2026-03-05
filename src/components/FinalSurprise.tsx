@@ -106,7 +106,7 @@ const FinalSurprise = () => {
             animate={{ opacity: 0.5 }}
             transition={{ delay: 3 }}
           >
-            psst... try typing "aishuu" on your keyboard 🤫
+        Please do not leave me....!!!!!
           </motion.p>
         </motion.div>
       )}
