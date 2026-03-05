@@ -42,6 +42,10 @@ const LoveConfession = ({ onNext }: LoveConfessionProps) => {
           my <span className="text-accent font-display text-2xl">Bangaram</span>
           <br />
           and one of the most special people in my life. 💕
+          <br />
+          <span className="text-muted-foreground text-base mt-2 block">
+            — Your Manohar ❤️
+          </span>
         </motion.p>
 
         {!response && (

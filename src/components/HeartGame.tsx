@@ -100,12 +100,12 @@ const HeartGame = ({ onNext }: HeartGameProps) => {
         </div>
       </div>
 
-      <div className="relative w-full max-w-md h-96 rounded-2xl overflow-hidden" style={{ background: "hsl(var(--card) / 0.5)" }}>
+      <div className="relative w-full max-w-md h-[60vh] md:h-96 rounded-2xl overflow-hidden touch-manipulation" style={{ background: "hsl(var(--card) / 0.5)" }}>
         <AnimatePresence>
           {hearts.map((heart) => (
             <motion.button
               key={heart.id}
-              className="absolute text-3xl cursor-pointer hover:scale-125 transition-transform z-10"
+              className="absolute text-4xl md:text-3xl cursor-pointer hover:scale-125 transition-transform z-10 touch-manipulation p-2"
               style={{ left: `${heart.x}%`, top: `${heart.y}%` }}
               onClick={(e) => {
                 const rect = (e.target as HTMLElement).getBoundingClientRect();

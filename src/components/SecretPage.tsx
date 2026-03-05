@@ -46,6 +46,17 @@ const SecretPage = () => {
         >
           You really are special, Aishuu. Never forget that. ✨
         </motion.p>
+
+        <motion.p
+          className="text-sm font-body text-muted-foreground mt-6 opacity-70"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 0.7 }}
+          transition={{ delay: 2.5 }}
+        >
+          3 months since Dec 6th… and counting. 💕
+          <br />
+          — Manohar
+        </motion.p>
       </div>
     </motion.div>
   );
