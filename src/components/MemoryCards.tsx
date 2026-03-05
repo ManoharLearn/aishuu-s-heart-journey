@@ -10,7 +10,7 @@ const cards = [
     title: "December 6th",
     emoji: "👀",
     message:
-      "The first time I saw you Aishuu…\nDecember 6th.\nI didn't say anything…\nbut my brain completely stopped working. 🫠",
+      "The first time I met you Aishuu…\nDecember 6th.\nI didn't say anything…\nbut my brain completely stopped working. 🫠",
   },
   {
     title: "That Cute Smile",
