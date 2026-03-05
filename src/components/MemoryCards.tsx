@@ -7,10 +7,10 @@ interface MemoryCardsProps {
 
 const cards = [
   {
-    title: "The First Time I Saw You",
+    title: "December 6th",
     emoji: "👀",
     message:
-      "The first time I saw you Aishuu...\nI didn't say anything…\nbut my brain completely stopped working. 🫠",
+      "The first time I saw you Aishuu…\nDecember 6th.\nI didn't say anything…\nbut my brain completely stopped working. 🫠",
   },
   {
     title: "That Cute Smile",
@@ -22,7 +22,7 @@ const cards = [
     title: "When I Started Liking You",
     emoji: "💘",
     message:
-      "I don't even know when it happened Bangaram…\none day you were just someone I talked to…\nthe next day you became someone I couldn't stop thinking about. ❤️",
+      "I don't even know when it happened Bangaram…\none day you were just someone I talked to…\nthe next day you became someone I couldn't stop thinking about. ❤️\n\n— Manohar",
   },
 ];
 
@@ -49,12 +49,12 @@ const MemoryCards = ({ onNext }: MemoryCardsProps) => {
         Our Little Memories 💭
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl w-full mb-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 max-w-4xl w-full mb-10 px-2">
         {cards.map((card, i) => (
           <div key={i} className="perspective-1000" style={{ perspective: "1000px" }}>
             <motion.div
               className="relative w-full cursor-pointer"
-              style={{ transformStyle: "preserve-3d", minHeight: "280px" }}
+              style={{ transformStyle: "preserve-3d", minHeight: "240px" }}
               animate={{ rotateY: flipped[i] ? 180 : 0 }}
               transition={{ duration: 0.6, type: "spring", stiffness: 100 }}
               onClick={() => !flipped[i] && flipCard(i)}

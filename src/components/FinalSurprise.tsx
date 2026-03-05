@@ -77,20 +77,36 @@ const FinalSurprise = () => {
             I'm lucky I met you. 💕
           </p>
           <motion.p
-            className="text-base font-body text-muted-foreground mt-6"
+            className="text-base font-body text-muted-foreground mt-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
           >
-            — Made with ❤️ just for you, Aishuu
+            Since December 6th… 3 months of knowing you. 💫
+          </motion.p>
+          <motion.p
+            className="text-base font-body text-muted-foreground mt-2"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5 }}
+          >
+            And every single day has been worth it.
+          </motion.p>
+          <motion.p
+            className="text-base font-body text-muted-foreground mt-6"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 2 }}
+          >
+            — Made with ❤️ by Manohar, just for you Aishuu
           </motion.p>
           <motion.p
             className="text-sm font-body text-muted-foreground mt-4 opacity-50"
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.5 }}
-            transition={{ delay: 2 }}
+            transition={{ delay: 3 }}
           >
-            psst... try typing "Aishuu" on your keyboard 🤫
+            psst... try typing "aishuu" on your keyboard 🤫
           </motion.p>
         </motion.div>
       )}
